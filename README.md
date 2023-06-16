@@ -83,7 +83,7 @@ Example
 
 # เริ่มต้นโปรเจค
 1. ทำการ run Generate_message.py บน Cloud Shell Editor
-<div align="center"> 
+<div align="left"> 
   <pre><code>python Generate_message.py</code></pre>
 </div>
 
@@ -106,9 +106,9 @@ Example
   </code></pre>
 </div>
 
-จะได้ Dataflow pipeflow ขึ้นมาดังนนี้
+จะได้ Dataflow pipeline ขึ้นมาดังนนี้
 <img src = 'image/23.PNG'>
-<img src = 'image/24.PNG'>
+           <img src = 'image/24.PNG'>
 <img src = 'image/25.PNG'>
 3. รอสักพักใหญ่ๆ เพื่อประมวลผล \
 4. ตัวอย่างข้อมูลที่บันทึกลงไปใน Bigquery
