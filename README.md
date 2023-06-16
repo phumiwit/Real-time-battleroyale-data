@@ -87,10 +87,10 @@ Example
   <pre><code>python Generate_message.py</code></pre>
 </div>
 
-จะได้ตัวอย่างข้อมูลคือที่ generate ขึ้นมาดังนี้ \
+จะได้ตัวอย่างข้อมูลคือที่ generate ขึ้นมาดังนี้ 
 <img src = 'image/22.PNG'>
 
-2. สร้าง Dataflow ขึ้นมาโดยใช้คำสั่งบน cloud shell \
+2. สร้าง Dataflow ขึ้นมาโดยใช้คำสั่งบน cloud shell 
 <div align="left"> 
   <pre><code>
    python Dataflow_pipeline.py \
