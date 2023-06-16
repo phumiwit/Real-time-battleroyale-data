@@ -75,4 +75,33 @@ Example
 ]
    </code></pre>
 </div>
+5.สร้าง cloud storage สำหรับเก็บข้อมูลและ folder temp \
+Example
+<img src = 'image/20.PNG'>
+6.Enable Dataflow API 
+<img src = 'image/27.PNG'>
 
+# เริ่มต้นโปรเจค
+1. ทำการ run Generate_message.py บน Cloud Shell Editor
+<div align="center"> 
+  <pre><code>python Generate_message.py</code></pre>
+</div>
+
+จะได้ตัวอย่างข้อมูลคือที่ generate ขึ้นมาดังนี้ 
+<img src = 'image/22.PNG'>
+
+2. สร้าง Dataflow ขึ้นมาโดยใช้คำสั่งบน cloud shell
+<div align="left"> 
+  <pre><code>
+   python Dataflow_pipeline.py \
+  --project=(your project id) \
+  --region=(your region) \
+  --input_subscription=projects/(your project id)/subscriptions/(your subsciption) \
+  --output_table=(your project id).(your data set).(your table) \
+  --runner=DataflowRunner \
+  --temp_location=gs://(your cloud storage)/temp \
+  --num_workers=1 \
+  --max_num_workers=1 \
+  --experiment=use_unsupported_python_version
+  </code></pre>
+</div>
