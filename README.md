@@ -108,7 +108,7 @@ Example
 
 จะได้ Dataflow pipeline ขึ้นมาดังนนี้
 <img src = 'image/23.PNG'>
-           <img src = 'image/24.PNG'>
+<img src = 'image/24.PNG'>
 <img src = 'image/25.PNG'>
 3. รอสักพักใหญ่ๆ เพื่อประมวลผล \
 4. ตัวอย่างข้อมูลที่บันทึกลงไปใน Bigquery
