@@ -87,10 +87,10 @@ Example
   <pre><code>python Generate_message.py</code></pre>
 </div>
 
-จะได้ตัวอย่างข้อมูลคือที่ generate ขึ้นมาดังนี้ 
+จะได้ตัวอย่างข้อมูลคือที่ generate ขึ้นมาดังนี้ \
 <img src = 'image/22.PNG'>
 
-2. สร้าง Dataflow ขึ้นมาโดยใช้คำสั่งบน cloud shell
+2. สร้าง Dataflow ขึ้นมาโดยใช้คำสั่งบน cloud shell \
 <div align="left"> 
   <pre><code>
    python Dataflow_pipeline.py \
@@ -105,3 +105,12 @@ Example
   --experiment=use_unsupported_python_version
   </code></pre>
 </div>
+
+จะได้ Dataflow pipeflow ขึ้นมาดังนนี้
+<img src = 'image/23.PNG'>
+<img src = 'image/24.PNG'>
+<img src = 'image/25.PNG'>
+3. รอสักพักใหญ่ๆ เพื่อประมวลผล \
+4. ตัวอย่างข้อมูลที่บันทึกลงไปใน Bigquery
+<img src = 'image/21.PNG'>
+
