@@ -93,7 +93,7 @@ Example
 2. สร้าง Dataflow ขึ้นมาโดยใช้คำสั่งบน cloud shell 
 <div align="left"> 
   <pre><code>
-   python Dataflow_pipeline.py \
+   python Game_player_score_data.py \
   --project=(your project id) \
   --region=(your region) \
   --input_subscription=projects/(your project id)/subscriptions/(your subsciption) \
